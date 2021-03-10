@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "dcsgva-lab-sandbox-paul-gould-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "env/dev"
   }
 }
